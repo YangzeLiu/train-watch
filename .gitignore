@@ -1,0 +1,36 @@
+# Train Watch - gitignore
+
+# Runtime files
+.train_status.log
+.watchdog.pid
+watchdog.out
+train.log
+dummy_train.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints and model files
+*.pth
+*.ckpt
+*.pt
+checkpoints/
