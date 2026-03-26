@@ -7,6 +7,10 @@ watchdog.out
 train.log
 dummy_train.py
 
+# WSL/Windows Zone Identifier files
+*:Zone.Identifier
+*.Zone.Identifier
+
 # Python
 __pycache__/
 *.py[cod]
